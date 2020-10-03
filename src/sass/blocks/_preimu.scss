@@ -1,0 +1,43 @@
+.preimu {
+    min-height: 470px;
+    padding: 70px 0 78px 0;
+    background-color: #f6f6f6;
+    &__header {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 65px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__icon {
+        width: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        img {
+            margin-bottom: 19px;
+        }
+        span {
+            margin-top: 29px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: none;
+            a {
+                color: $main-color;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
